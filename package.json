@@ -13,23 +13,23 @@
     "email": "ramr@example.org",
     "url": "http://www.openshift.com/"
   },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
-
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
-    "express": "~3.4.4"
+    "body-parser": "~1.5.2",
+    "db-migrate": "^0.9.14",
+    "express": "^4.12.3",
+    "method-override": "~2.1.2",
+    "moment": "^2.10.2",
+    "morgan": "~1.2.2",
+    "multer": "^0.1.8",
+    "node-uuid": "^1.4.3",
+    "pg": "^4.3.0"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
   "main": "server.js"
 }

@@ -1,0 +1,314 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/jhonylucas/projetos/estudos/electron/ramlteam',
+5 verbose install   [ 'body-parser',
+5 verbose install     'db-migrate',
+5 verbose install     'express',
+5 verbose install     'method-override',
+5 verbose install     'moment',
+5 verbose install     'morgan',
+5 verbose install     'multer',
+5 verbose install     'node-uuid',
+5 verbose install     'pg' ] ]
+6 info preinstall OpenShift-Sample-App@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'body-parser@~1.5.2', null ]
+9 verbose cache add name=undefined spec="body-parser@~1.5.2" args=["body-parser@~1.5.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'body-parser@~1.5.2',
+10 verbose parsed url   path: 'body-parser@~1.5.2',
+10 verbose parsed url   href: 'body-parser@~1.5.2' }
+11 verbose cache add [ 'db-migrate@^0.9.14', null ]
+12 verbose cache add name=undefined spec="db-migrate@^0.9.14" args=["db-migrate@^0.9.14",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'db-migrate@^0.9.14',
+13 verbose parsed url   path: 'db-migrate@^0.9.14',
+13 verbose parsed url   href: 'db-migrate@^0.9.14' }
+14 verbose cache add [ 'express@^4.12.3', null ]
+15 verbose cache add name=undefined spec="express@^4.12.3" args=["express@^4.12.3",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'express@^4.12.3',
+16 verbose parsed url   path: 'express@^4.12.3',
+16 verbose parsed url   href: 'express@^4.12.3' }
+17 verbose cache add [ 'method-override@~2.1.2', null ]
+18 verbose cache add name=undefined spec="method-override@~2.1.2" args=["method-override@~2.1.2",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'method-override@~2.1.2',
+19 verbose parsed url   path: 'method-override@~2.1.2',
+19 verbose parsed url   href: 'method-override@~2.1.2' }
+20 verbose cache add [ 'moment@^2.10.2', null ]
+21 verbose cache add name=undefined spec="moment@^2.10.2" args=["moment@^2.10.2",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'moment@^2.10.2',
+22 verbose parsed url   path: 'moment@^2.10.2',
+22 verbose parsed url   href: 'moment@^2.10.2' }
+23 verbose cache add name="body-parser" spec="~1.5.2" args=["body-parser","~1.5.2"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '~1.5.2',
+24 verbose parsed url   path: '~1.5.2',
+24 verbose parsed url   href: '~1.5.2' }
+25 verbose addNamed [ 'body-parser', '~1.5.2' ]
+26 verbose addNamed [ null, '>=1.5.2-0 <1.6.0-0' ]
+27 verbose cache add name="db-migrate" spec="^0.9.14" args=["db-migrate","^0.9.14"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '^0.9.14',
+28 verbose parsed url   path: '^0.9.14',
+28 verbose parsed url   href: '^0.9.14' }
+29 verbose addNamed [ 'db-migrate', '^0.9.14' ]
+30 verbose addNamed [ null, '>=0.9.14-0 <0.10.0-0' ]
+31 verbose cache add name="express" spec="^4.12.3" args=["express","^4.12.3"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '^4.12.3',
+32 verbose parsed url   path: '^4.12.3',
+32 verbose parsed url   href: '^4.12.3' }
+33 verbose addNamed [ 'express', '^4.12.3' ]
+34 verbose addNamed [ null, '>=4.12.3-0 <5.0.0-0' ]
+35 verbose cache add name="method-override" spec="~2.1.2" args=["method-override","~2.1.2"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '~2.1.2',
+36 verbose parsed url   path: '~2.1.2',
+36 verbose parsed url   href: '~2.1.2' }
+37 verbose addNamed [ 'method-override', '~2.1.2' ]
+38 verbose addNamed [ null, '>=2.1.2-0 <2.2.0-0' ]
+39 verbose cache add name="moment" spec="^2.10.2" args=["moment","^2.10.2"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '^2.10.2',
+40 verbose parsed url   path: '^2.10.2',
+40 verbose parsed url   href: '^2.10.2' }
+41 verbose addNamed [ 'moment', '^2.10.2' ]
+42 verbose addNamed [ null, '>=2.10.2-0 <3.0.0-0' ]
+43 verbose cache add [ 'morgan@~1.2.2', null ]
+44 verbose cache add name=undefined spec="morgan@~1.2.2" args=["morgan@~1.2.2",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'morgan@~1.2.2',
+45 verbose parsed url   path: 'morgan@~1.2.2',
+45 verbose parsed url   href: 'morgan@~1.2.2' }
+46 verbose cache add [ 'multer@^0.1.8', null ]
+47 verbose cache add name=undefined spec="multer@^0.1.8" args=["multer@^0.1.8",null]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'multer@^0.1.8',
+48 verbose parsed url   path: 'multer@^0.1.8',
+48 verbose parsed url   href: 'multer@^0.1.8' }
+49 verbose cache add [ 'node-uuid@^1.4.3', null ]
+50 verbose cache add name=undefined spec="node-uuid@^1.4.3" args=["node-uuid@^1.4.3",null]
+51 verbose parsed url { protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: 'node-uuid@^1.4.3',
+51 verbose parsed url   path: 'node-uuid@^1.4.3',
+51 verbose parsed url   href: 'node-uuid@^1.4.3' }
+52 silly lockFile c3717280-body-parser-1-5-2 body-parser@~1.5.2
+53 verbose lock body-parser@~1.5.2 /Users/jhonylucas/.npm/c3717280-body-parser-1-5-2.lock
+54 silly lockFile 2b2fd993-db-migrate-0-9-14 db-migrate@^0.9.14
+55 verbose lock db-migrate@^0.9.14 /Users/jhonylucas/.npm/2b2fd993-db-migrate-0-9-14.lock
+56 silly lockFile dbce67be-express-4-12-3 express@^4.12.3
+57 verbose lock express@^4.12.3 /Users/jhonylucas/.npm/dbce67be-express-4-12-3.lock
+58 silly lockFile fa7a4300-method-override-2-1-2 method-override@~2.1.2
+59 verbose lock method-override@~2.1.2 /Users/jhonylucas/.npm/fa7a4300-method-override-2-1-2.lock
+60 silly lockFile 7b185766-moment-2-10-2 moment@^2.10.2
+61 verbose lock moment@^2.10.2 /Users/jhonylucas/.npm/7b185766-moment-2-10-2.lock
+62 verbose cache add name="morgan" spec="~1.2.2" args=["morgan","~1.2.2"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: '~1.2.2',
+63 verbose parsed url   path: '~1.2.2',
+63 verbose parsed url   href: '~1.2.2' }
+64 verbose addNamed [ 'morgan', '~1.2.2' ]
+65 verbose addNamed [ null, '>=1.2.2-0 <1.3.0-0' ]
+66 silly lockFile 8a9f8c6a-morgan-1-2-2 morgan@~1.2.2
+67 verbose lock morgan@~1.2.2 /Users/jhonylucas/.npm/8a9f8c6a-morgan-1-2-2.lock
+68 verbose cache add name="multer" spec="^0.1.8" args=["multer","^0.1.8"]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: '^0.1.8',
+69 verbose parsed url   path: '^0.1.8',
+69 verbose parsed url   href: '^0.1.8' }
+70 verbose addNamed [ 'multer', '^0.1.8' ]
+71 verbose addNamed [ null, '>=0.1.8-0 <0.2.0-0' ]
+72 silly lockFile bbc8d2ec-multer-0-1-8 multer@^0.1.8
+73 verbose lock multer@^0.1.8 /Users/jhonylucas/.npm/bbc8d2ec-multer-0-1-8.lock
+74 verbose cache add [ 'pg@^4.3.0', null ]
+75 verbose cache add name=undefined spec="pg@^4.3.0" args=["pg@^4.3.0",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'pg@^4.3.0',
+76 verbose parsed url   path: 'pg@^4.3.0',
+76 verbose parsed url   href: 'pg@^4.3.0' }
+77 verbose cache add name="node-uuid" spec="^1.4.3" args=["node-uuid","^1.4.3"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '^1.4.3',
+78 verbose parsed url   path: '^1.4.3',
+78 verbose parsed url   href: '^1.4.3' }
+79 verbose addNamed [ 'node-uuid', '^1.4.3' ]
+80 verbose addNamed [ null, '>=1.4.3-0 <2.0.0-0' ]
+81 silly lockFile b6989c8c-node-uuid-1-4-3 node-uuid@^1.4.3
+82 verbose lock node-uuid@^1.4.3 /Users/jhonylucas/.npm/b6989c8c-node-uuid-1-4-3.lock
+83 verbose cache add name="pg" spec="^4.3.0" args=["pg","^4.3.0"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '^4.3.0',
+84 verbose parsed url   path: '^4.3.0',
+84 verbose parsed url   href: '^4.3.0' }
+85 verbose addNamed [ 'pg', '^4.3.0' ]
+86 verbose addNamed [ null, '>=4.3.0-0 <5.0.0-0' ]
+87 silly lockFile 1e887583-pg-4-3-0 pg@^4.3.0
+88 verbose lock pg@^4.3.0 /Users/jhonylucas/.npm/1e887583-pg-4-3-0.lock
+89 silly lockFile dbce67be-express-4-12-3 express@^4.12.3
+90 error Error: Attempt to unlock express@^4.12.3, which hasn't been locked
+90 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+90 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+90 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+90 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+90 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+90 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+90 error     at Object.oncomplete (fs.js:107:15)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/npm/npm/issues>
+92 error System Darwin 13.4.0
+93 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+94 error cwd /Users/jhonylucas/projetos/estudos/electron/ramlteam
+95 error node -v v0.10.33
+96 error npm -v 1.4.28
+97 verbose exit [ 1, true ]

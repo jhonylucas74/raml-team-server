@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "driver": "pg",
+    "DATABASE_URL": "postgres://localhost:5432",
+    "database": "ramlteam"
+  },
+  "prod": {
+    "driver": "pg",
+    "DATABASE_URL": {"ENV": "OPENSHIFT_POSTGRESQL_DB_URL"}
+  }
+}
